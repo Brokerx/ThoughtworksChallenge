@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_summary"
+            android:icon="@drawable/ic_summary"
+            android:title="Kings Rating" />
+        <item
+            android:id="@+id/nav_battles"
+            android:icon="@drawable/ic_battle"
+            android:title="All Battles" />
+        <!--<item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Analysis" />-->
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_bout_me"
+                android:title="About Me" />
+            <item
+                android:id="@+id/nav_portfolio"
+                android:icon="@drawable/ic_portfolio"
+                android:title="My Portfolio" />
+        </menu>
+    </item>
+
+</menu>
